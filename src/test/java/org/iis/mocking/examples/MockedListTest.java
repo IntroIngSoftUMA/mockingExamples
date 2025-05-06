@@ -1,5 +1,4 @@
-package org.iis.mocking.examples ;
-
+package org.iis.mocking.examples;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -53,6 +52,6 @@ class MockedListTest {
     verify(mockedList, times(2)).add(anyString());
     assertEquals(2, mockedList.size());
     assertEquals("first element", mockedList.get(0));
-    assertThrows(IndexOutOfBoundsException.class, () -> mockedList.get(-1)) ;
+    assertThrows(IndexOutOfBoundsException.class, () -> mockedList.get(-1));
   }
 }
