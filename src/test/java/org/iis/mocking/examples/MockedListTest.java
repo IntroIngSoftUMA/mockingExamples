@@ -13,7 +13,7 @@ class MockedListTest {
 
   @Test
   void simpleMockingExamples() {
-    // STEP 1: create mock object
+    // STEP 1: create the mock object
     List<String> mockedList = mock(List.class);
 
     // STEP 2: using the mock object
@@ -36,7 +36,7 @@ class MockedListTest {
 
   @Test
   void simpleStubbingExamples() {
-    // STEP 1: create mock object
+    // STEP 1: create mock the object
     List<String> mockedList = mock(List.class);
 
     // STEP 2: stubbing
