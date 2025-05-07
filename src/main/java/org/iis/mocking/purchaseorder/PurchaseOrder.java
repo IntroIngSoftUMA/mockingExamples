@@ -28,5 +28,6 @@ public class PurchaseOrder {
     if (warehouse.thereAreProducts(productName, amountToBuy)) {
       warehouse.remove(productName, amountToBuy);
     }
+    // Code to finihs the purchase
   }
 }
