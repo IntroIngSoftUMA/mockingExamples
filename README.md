@@ -4,5 +4,5 @@ This project demonstrates how to use **Mockito**, a popular mocking framework fo
 
 ## Prerequisites
 
-- **Java 22** or higher
+- **Java 21** 
 - **Maven** for dependency management and build automation
